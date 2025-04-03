@@ -31,12 +31,12 @@
                <div class="col-md-4 mb-3">
                    <h5 class="text-uppercase text-white">Links</h5>
                    <ul class="list-unstyled ">
-                       <li><a href="/FinalProject/index.php" class="footer-col hover-effect">Home</a></li>
-                       <li><a href="/FinalProject/aboutus.php" class="footer-col hover-effect">About</a></li>
-                       <li><a href="/FinalProject/services.php" class="footer-col hover-effect">Services</a></li>
-                       <li><a href="/FinalProject/safety.php" class="footer-col hover-effect">For Your Safety</a></li>
-                       <li><a href="/FinalProject/jobsncareer.php" class="footer-col hover-effect">Jobs & Careers</a></li>
-                       <li><a href="/FinalProject/contactus.php" class="footer-col hover-effect">Contact</a></li>
+                       <li><a href="/TermProject1/index.php" class="footer-col hover-effect">Home</a></li>
+                       <li><a href="/TermProject1/aboutus.php" class="footer-col hover-effect">About</a></li>
+                       <li><a href="/TermProject1/services.php" class="footer-col hover-effect">Services</a></li>
+                       <li><a href="/TermProject1/safety.php" class="footer-col hover-effect">For Your Safety</a></li>
+                       <li><a href="/TermProject1/jobsncareer.php" class="footer-col hover-effect">Jobs & Careers</a></li>
+                       <li><a href="/TermProject1/contactus.php" class="footer-col hover-effect">Contact</a></li>
                    </ul>
                </div>
    

@@ -1,8 +1,8 @@
 <?php include '../../includes/header.php'; ?>
 
 <!-- Bootstrap and Custom CSS -->
-<link rel="stylesheet" href="/TermProject/css/bootstrap.css">
-<link rel="stylesheet" href="/TermProject/css/style.css">
+<link rel="stylesheet" href="/TermProject1/css/bootstrap.css">
+<link rel="stylesheet" href="/TermProject1/css/style.css">
 
 <div class="container mt-5">
     <!-- Page Header -->
@@ -11,13 +11,13 @@
         <p class="lead text-muted">Feathered, winged creatures known for their ability to fly and lay eggs.</p>
     </div>
     <div class="text-center mt-1 my-3">
-        <a href="/TermProject/php/lists/listbirds.php" class="btn btn-lg btn-success text-white">See the List of Birds in Our Zoo</a>
+        <a href="/TermProject1/php/lists/listbirds.php" class="btn btn-lg btn-success text-white">See the List of Birds in Our Zoo</a>
     </div>
 
     <!-- Hero Section with Image -->
     <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-            <img src="/TermProject/pictures/birds.png" alt="Birds" class="img-fluid rounded-5 shadow-lg border text-success">
+            <img src="/TermProject1/pictures/birds.png" alt="Birds" class="img-fluid rounded-5 shadow-lg border text-success">
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             </ul>
         </div>
         <div class="col-md-6 text-center p-3">
-            <img src="/TermProject/pictures/birdschar.png" alt="Bird Characteristics" height="200" width="300" class="rounded-5 shadow-lg text-success">
+            <img src="/TermProject1/pictures/birdschar.png" alt="Bird Characteristics" height="200" width="300" class="rounded-5 shadow-lg text-success">
         </div>
     </div>
 

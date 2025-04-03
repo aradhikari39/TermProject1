@@ -1,8 +1,8 @@
 <?php include '../../includes/header.php'; ?>
 
 <!-- Bootstrap and Custom CSS -->
-<link rel="stylesheet" href="/TermProject/css/bootstrap.css">
-<link rel="stylesheet" href="/TermProject/css/style.css">
+<link rel="stylesheet" href="/TermProject1/css/bootstrap.css">
+<link rel="stylesheet" href="/TermProject1/css/style.css">
 
 <div class="container mt-5">
     <!-- Page Header -->
@@ -11,13 +11,13 @@
         <p class="lead text-muted">Aquatic vertebrates that breathe through gills and live in water.</p>
     </div>
     <div class="text-center mt-1 my-3">
-        <a href="/TermProject/php/lists/listpisces.php" class="btn btn-lg btn-success text-white">See the List of Pisces in Our Zoo</a>
+        <a href="/TermProject1/php/lists/listpisces.php" class="btn btn-lg btn-success text-white">See the List of Pisces in Our Zoo</a>
     </div>
 
     <!-- Hero Section with Image -->
     <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-            <img src="/TermProject/pictures/pisces.jpg" height="400" width="400" alt="Pisces" class="img-fluid rounded-5 shadow-lg border text-success">
+            <img src="/TermProject1/pictures/pisces.jpg" height="400" width="400" alt="Pisces" class="img-fluid rounded-5 shadow-lg border text-success">
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             </ul>
         </div>
         <div class="col-md-6 text-center p-3">
-            <img src="/TermProject/pictures/pisceschar.png" alt="Pisces Characteristics" height="200" width="300" class="rounded-5 shadow-lg text-success">
+            <img src="/TermProject1/pictures/pisceschar.png" alt="Pisces Characteristics" height="200" width="300" class="rounded-5 shadow-lg text-success">
         </div>
     </div>
 

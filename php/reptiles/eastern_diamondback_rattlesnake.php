@@ -1,6 +1,6 @@
 <?php include '../../includes/header.php'; ?>
 
-<link rel="stylesheet" href="/TermProject/css/style.css">
+<link rel="stylesheet" href="/TermProject1/css/style.css">
 
 <div class="container"> 
     <div class="name text-center">
@@ -10,7 +10,7 @@
 
     <div class="row justify-content-center mb-3">
         <div class="col-md-6 text-center">
-            <img src="/TermProject/pictures/eastern_diamondback_rattlesnake.jpg" alt="eastern_diamondback_rattlesnake" class="rounded-circle picture-size img-fluid"/>
+            <img src="/TermProject1/pictures/eastern_diamondback_rattlesnake.jpg" alt="eastern_diamondback_rattlesnake" class="rounded-circle picture-size img-fluid"/>
         </div>
     </div>
 
