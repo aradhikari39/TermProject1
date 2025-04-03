@@ -1,0 +1,23 @@
+{
+  "name": "termproject",
+  "version": "1.0.0",
+  "description": "This is My Final PRoject",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aradhikari39"
+  },
+  "keywords": [
+    "Hello",
+    "World"
+  ],
+  "author": "Arpan Adhikari",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.86.2"
+  }
+}

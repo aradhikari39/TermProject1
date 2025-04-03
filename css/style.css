@@ -1,0 +1,302 @@
+@media (max-width: 767px) {
+  .discussion-menu {
+    justify-content: center !important;
+  }
+}
+/* .picture-size {
+  width: 20% !important;
+  height: 50% !important;
+  object-fit: cover;
+} */
+.custom-form {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 3px solid rgb(135, 200, 135);
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(135, 200, 135, 0.2);
+}
+
+.custom-header {
+  color: rgb(135, 200, 135);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.custom-btn {
+  background: rgb(135, 200, 135);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.custom-btn:hover {
+  background: rgb(115, 180, 115);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(135, 200, 135, 0.3);
+}
+
+.form-control:focus {
+  border-color: rgb(135, 200, 135);
+  box-shadow: 0 0 0 0.2rem rgba(135, 200, 135, 0.25);
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #555;
+}
+
+.alert-danger {
+  border-left: 4px solid #dc3545;
+  border-radius: 4px;
+}
+
+#hey {
+  background-color: red;
+}
+
+.test {
+  font-weight: 500;
+  color: rgb(13, 13, 13);
+  font-family: "ADLaM Display";
+  font-size: 22px;
+}
+
+.header {
+  background-color: rgb(135, 200, 135);
+  font-family: "Georgia", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mycolor {
+  background-color: rgb(135, 200, 135);
+}
+
+.footer {
+  background-color: rgb(135, 200, 135);
+}
+
+.mainhead {
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: "Georgia", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.underheading {
+  font-family: "Georgia", serif;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.animalsbackground {
+  background-color: rgb(25, 135, 84);
+}
+
+.footer-col {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: rgba(255, 255, 255, 0.512) !important;
+  text-decoration: none;
+  margin: 0;
+  font-family: "TTNorms", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* .test
+{
+  background-color: red;
+  color: orange;
+} */
+.picture-size {
+  width: 250px !important;
+  height: 250px !important;
+  object-fit: cover;
+}
+
+.scientific {
+  font-family: Palatino Linotype;
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.name {
+  text-align: center;
+}
+
+.normalname {
+  font-family: "Georgia", serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: rgba(23, 22, 22, 0.512);
+}
+
+/*  */
+.hover-effect {
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  color: #fdeba0 !important;
+  transform: translateY(-2px);
+}
+
+/* ----------------------------------------------------- */
+/* Enhanced Header Styles */
+.header {
+  background: linear-gradient(135deg, rgb(135, 200, 135) 0%, rgb(100, 180, 100) 100%);
+  padding-bottom: 1rem;
+}
+
+.auth-btn {
+  transition: all 0.3s ease;
+  border-width: 2px;
+  min-width: 100px;
+}
+
+.auth-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-link.hover-effect {
+  position: relative;
+}
+
+.nav-link.hover-effect:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.hover-effect:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 5px;
+  left: 50%;
+  background-color: #fdeba0;
+  transition: all 0.3s ease;
+}
+
+.nav-link.hover-effect:hover:after {
+  width: 60%;
+  left: 20%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainhead {
+    font-size: 2.5rem;
+  }
+  .underheading {
+    font-size: 1rem;
+  }
+  .nav-item {
+    margin-bottom: 0.5rem;
+  }
+  .auth-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    min-width: auto;
+  }
+}
+@media (max-width: 576px) {
+  .mainhead {
+    font-size: 2rem;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Add these to your existing style.css */
+/* Hero Section */
+.hero-section {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Animal Cards */
+.animal-card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  background-color: white;
+}
+
+.animal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(25, 135, 84, 0.2) !important;
+}
+
+.animal-card img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.animal-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 50vh;
+  }
+  .animal-card img {
+    height: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-section {
+    height: 40vh;
+  }
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+/* Feature Icons */
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(25, 135, 84);
+}
+
+/* Content Styles */
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #555;
+}
+
+/* Add these classes to your existing style.css */
+.text-primary-green {
+  color: rgb(25, 135, 84) !important;
+}
+
+.bg-primary-green {
+  background-color: rgba(25, 135, 84, 0.1) !important;
+}
+
+.border-primary-green {
+  border-color: rgb(25, 135, 84) !important;
+}
+
+.list-item-spacing li {
+  margin-bottom: 1rem;
+}
