@@ -1,0 +1,45 @@
+/* Search Container */
+.search-container {
+    position: relative;
+}
+
+/* Search Results Dropdown */
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    z-index: 1000;
+    display: none;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Individual Search Result Items */
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid #eee;
+}
+
+.search-result-item:hover {
+    background-color: rgba(25, 135, 84, 0.1);
+}
+
+/* Category Label */
+.search-result-category {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+/* Last item shouldn't have a border */
+.search-result-item:last-child {
+    border-bottom: none;
+}
