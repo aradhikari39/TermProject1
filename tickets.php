@@ -18,7 +18,12 @@ require_once 'includes/connfig.php';
                 $user_id = $_SESSION['user_id'] ?? null;
 
                 if (!$user_id) {
-                    
+                    echo'<div class="alert alert-danger">
+                            <h4>You must be <a href="loginform.php">logged in</a> to purchase tickets.</h4>
+                            
+                    </div>';
+            
+                    exit();
                 }
                 
                 // Validate inputs
@@ -26,11 +31,6 @@ require_once 'includes/connfig.php';
                     echo "<div class='alert alert-danger'>Quantity must be at least 1</div>";
                 } elseif (empty($visitdate)) {
                     echo "<div class='alert alert-danger'>Please select a visit date</div>";
-                } elseif (!$user_id) {
-                    header("Location: youmustbeloggedin.php");
-                    // echo '<div class="alert alert-danger">You must be <a href="loginform.php">logged in</a> to purchase tickets</div>';
-                    // include 'includes/footer.php';
-                    // exit();
                 } else {
                     // Determine price
                     $price = match($tickettype) {

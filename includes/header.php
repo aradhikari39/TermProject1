@@ -15,7 +15,7 @@
     <header class="mb-5 header">
         <div class="container">
             <div class="d-flex justify-content-end">
-                <div>
+                <div class="mt-2">
                     <a href="/TermProject1/signupform.php" class="btn btn-outline-light me-2">Sign Up</a>
                     <a href="/TermProject1/loginform.php" class="btn btn-outline-light me-2">Log In</a>
                     <a href="/TermProject1/logout.php" class="btn btn-outline-light me-2">Log Out</a>
